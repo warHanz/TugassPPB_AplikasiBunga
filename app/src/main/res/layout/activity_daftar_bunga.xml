@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarBungaActivity"
+    android:orientation="vertical"
+    android:background="@color/azure">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sawah">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="256dp"
+            android:src="@drawable/raflesia" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#093B51"
+            android:padding="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Raflesia"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/pink"
+            android:text="Raflesia adalah bunga bankai yang tumbuh pada suatu kegelapa yang ada dalam diri "   
+            android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="256dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/tulip" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#093B51"
+            android:padding="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Tulip"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#093B51"
+            android:padding="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Tulip"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/pink"
+            android:text="Raflesia adalah bunga bankai yang tumbuh pada suatu kegelapa yang ada dalam diri "
+            android:textColor="@color/white"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/matahari" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="5dp"
+        android:text="Marahari"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/pink"
+        android:text="Raflesia adalah bunga bankai yang tumbuh pada suatu kegelapa yang ada dalam diri "
+        android:textColor="@color/white"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="256dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/putih" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+            android:layout_marginTop="5dp"
+        android:text="Anemora"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/pink"
+        android:text="Raflesia adalah bunga bankai yang tumbuh pada suatu kegelapa yang ada dalam diri "
+        android:textColor="@color/white"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="256dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/bucket1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#093B51"
+            android:padding="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Bucket1"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/pink"
+            android:text="Raflesia adalah bunga bankai yang tumbuh pada suatu kegelapa yang ada dalam diri "
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="256dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/bucket2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#093B51"
+            android:padding="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Bucket2"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/pink"
+            android:text="Raflesia adalah bunga bankai yang tumbuh pada suatu kegelapa yang ada dalam diri "
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="256dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/bucket3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#093B51"
+            android:padding="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Bucket3"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/pink"
+            android:text="Raflesia adalah bunga bankai yang tumbuh pada suatu kegelapa yang ada dalam diri "
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</ScrollView>
+    </RelativeLayout>
+
+
+
