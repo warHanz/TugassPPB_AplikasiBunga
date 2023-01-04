@@ -2,23 +2,22 @@ package com.example.pdkt;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.ListView;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class DaftarBungaActivity extends AppCompatActivity {
+public class ReferensiActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_daftar_bunga);
+        setContentView(R.layout.activity_referensi);
 
     }
-    public void hal_Referensi(View view) {
-        Intent intent =new Intent(DaftarBungaActivity.this, ReferensiActivity.class);
+    public void hal_DaftarBunga(View view) {
+        Intent intent =new Intent(ReferensiActivity.this, DaftarBungaActivity.class);
         startActivity(intent);
     }
-}
 
+}
 

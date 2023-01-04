@@ -34,9 +34,10 @@
             android:exported="true">
         </activity>
 
-        <activity android:name=".ContactActivity"
+        <activity android:name=".ReferensiActivity"
             android:exported="true">
         </activity>
+
 
     </application>
 

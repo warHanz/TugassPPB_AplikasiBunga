@@ -9,7 +9,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    Button button1, button2, button3;
+    Button button1, button2 ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
 
         button1 = (Button) findViewById(R.id.button1);
         button2 = (Button) findViewById(R.id.button2);
-        button3 = (Button) findViewById(R.id.button3);
 
         button1.setOnClickListener(new View.OnClickListener() {
 
@@ -33,16 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, BeliBungaActivity.class);
-                finish();
-                startActivity(intent);
-            }
-        });
-        button3.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ContactActivity.class);
+                Intent intent = new Intent(MainActivity.this, ReferensiActivity.class);
                 finish();
                 startActivity(intent);
             }
